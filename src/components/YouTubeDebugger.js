@@ -22,6 +22,13 @@ export default class YouTubeDebugger extends React.Component{
         }
       })
     }
+    handleClickResolution = ()=>{
+      this.setState({
+        settings: {
+          ...this.state.settings ,bitrate: 12 
+        }
+      })
+    }
  
     render(){
         return(
