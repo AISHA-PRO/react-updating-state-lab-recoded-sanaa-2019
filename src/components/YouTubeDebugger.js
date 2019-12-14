@@ -17,7 +17,9 @@ export default class YouTubeDebugger extends React.Component{
     }
     handleClickBitrate = ()=>{
       this.setState({
-        
+        settings: {
+          ...this.state.
+        }
       })
     }
  
