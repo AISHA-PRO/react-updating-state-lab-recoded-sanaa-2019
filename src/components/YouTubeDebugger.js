@@ -15,7 +15,9 @@ export default class YouTubeDebugger extends React.Component{
           }
         }
     }
-    
+    handleClickBitrate = ()=>{
+      
+    }
  
     render(){
         return(
